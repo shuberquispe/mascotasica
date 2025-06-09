@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MascotaSOS - Ica</string>
+    <string name="welcome_message">Bienvenido a MascotaSOS - Ica</string>
+    <string name="splash_loading">Cargando...</string>
+    <string name="error_message">Error inesperado</string>
+    <string name="loading">Cargando</string>
+    <string name="retry">Reintentar</string>
+    <string name="ok">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+</resources>

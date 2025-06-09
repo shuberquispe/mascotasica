@@ -1,0 +1,54 @@
+name: mascota_sos_ica
+description: Aplicación solidaria y social para ayudar a animales perdidos, promover la adopción y brindar cuidados básicos a mascotas en Ica, Perú.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  # Dependencias de Firebase comentadas para desarrollo con servicios mock
+  # firebase_core: ^2.15.1
+  # firebase_auth: ^4.7.3
+  # cloud_firestore: ^4.8.5
+  # firebase_storage: ^11.2.6
+  # firebase_messaging: ^14.6.7
+  google_maps_flutter: ^2.4.0
+  provider: ^6.0.5
+  shared_preferences: ^2.2.0
+  image_picker: ^1.0.2
+  cached_network_image: ^3.2.3
+  intl: ^0.18.1
+  flutter_local_notifications: ^15.1.0+1
+  path_provider: ^2.1.0
+  url_launcher: ^6.1.12
+  permission_handler: ^11.1.0
+  connectivity_plus: ^4.0.2
+  flutter_svg: ^2.0.7
+  google_fonts: ^5.1.0
+  shimmer: ^3.0.0
+  flutter_staggered_grid_view: ^0.7.0
+  timeago: ^3.5.0
+  geolocator: ^10.0.0
+  geocoding: ^2.1.0
+  uuid: ^3.0.7
+  share_plus: ^7.0.0
+  font_awesome_flutter: ^10.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
